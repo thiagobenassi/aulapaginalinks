@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+body{
+    font-family: sans-serif;
+    background-image: url("../img/stemorais.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.header{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;   
+}
+.container{
+    display: flex;
+}
+.navbar{
+    width:50%;
+    padding: 60px;         
+}
+.content{
+    width: 50%;
+    padding: 40px;
+    text-align: center;  
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.none{
+    list-style: none;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(148, 105, 141);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;   
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+p{
+    margin-top: 10px;
+    font-size: 30px;   
+}
+.home{
+    margin-left: 0px;
+}
+.quem{
+    margin-left: 40px;
+}
+.alongamento{
+    margin-left: 140px;
+}
+.banho{
+    margin-left: 230px;
+}
+.redessociais{
+    margin-left: 330px;
+}
+.contato{
+    margin-left: 430px;
+}
+.ste{
+    margin-top: 105px;
+    padding: 2px;
+    margin-bottom: -70px;
+}
+.rede{
+    background-color: rgb(235, 99, 99);  
+}
+.facebook{
+    background-color: rgb(91, 91, 190);
+}
+.insta{
+    background-color: rgb(192, 74, 172);
+}
+.whatsapp{
+    background-color: green;
+}
